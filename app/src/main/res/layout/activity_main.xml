@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/botonRojoMainActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="CARGAR FRAGMENT ROJO"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+
+        <Button
+            android:id="@+id/botonVerdeMainActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/botonRojoMainActivity"
+            android:layout_marginTop="60dp"
+            android:text="CARGAR FRAGMENT VERDE"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#00BCD4">
+    </LinearLayout>
+
+</LinearLayout>
